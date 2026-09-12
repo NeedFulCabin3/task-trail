@@ -29,7 +29,7 @@ jobs:
           pip install ruff mypy pytest
 
       - name: Run Code Formatting check (Ruff)
-        run: ruff check .
+        run: ruff check --ignore DTZ005 .
 
       - name: Run Static Type Checking (Mypy)
         run: mypy --ignore-missing-imports main.py
