@@ -61,16 +61,16 @@ python main.py --help
 
 ## Usage Example
 
-# Add tasks with explicit priorities
+### Add tasks with explicit priorities
 python main.py add "Write technical documentation" -p high
 
-# List only pending tasks
+### List only pending tasks
 python main.py list -s pending
 
-# Mark a task complete by ID
+### Mark a task complete by ID
 python main.py update 1 --done
 
-# Purge completed tasks
+### Purge completed tasks
 python main.py delete --clear-done
 
 ## Repository Structure
