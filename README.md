@@ -47,15 +47,15 @@ Switching contexts to record micro-tasks breaks development focus. Many task man
 ### Local Virtual Environment Setup
 
 ```bash
-# Clone repository
+### Clone repository
 git clone [https://github.com/your-username/task-trail.git](https://github.com/your-username/task-trail.git)
 cd task-trail
 
-# Set up virtual environment
+### Set up virtual environment
 python3 -m venv .venv
 source .venv/bin/activate
 
-# Run utility
+### Run utility
 python main.py --help
 ```
 
